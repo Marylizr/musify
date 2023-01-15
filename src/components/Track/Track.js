@@ -5,11 +5,11 @@ import '../Track/Track.css';
 const Track = ({ isRemoval, track, onAdd, onRemove }) => {
 
 
-  const addTrack = (e) => {
+  const addTrack = (event) => {
     onAdd(track);
   }
 
-  const removeTrack = (e) => {
+  const removeTrack = (event) => {
     onRemove(track);
   }
 
