@@ -11,7 +11,6 @@ const Playlist = ({ playlistTracks, onRemove, onSave, onNameChange }) => {
     onNameChange(e.target.value);
   }
 
-  
 
     return(
       <div className="Playlist">

@@ -1,11 +1,31 @@
 .SearchBar {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding-top: 6.94rem;
-   margin-bottom: 6.33rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5.33rem;
+  background-color: darkslateblue;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
  }
  
+ .blockone{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .blocktwo{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+ }
+
+ .blocktwo > img {
+   width: 60%;
+ }
+
  .SearchBar input {
    width: 287px;
    padding: .88rem 0;
